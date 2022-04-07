@@ -1,0 +1,29 @@
+
+div{
+    border: .5px solid ;
+    background: rgba(24, 255, 255, 0.05);
+    font-weight: bold;
+    height: auto;
+    width: auto;
+}
+
+
+.categories{
+    margin-right: 70%;
+    text-align: left;
+    padding: 2px 2px 0 2px;
+}
+
+.categories2{
+    margin-right: 70%;
+    text-align: left;
+    padding: 0 2px 0 2px;
+
+}
+
+.categories3{
+    margin-right: 70%;
+    text-align: left;
+    padding: 0 2px 2px 2px;
+
+}
