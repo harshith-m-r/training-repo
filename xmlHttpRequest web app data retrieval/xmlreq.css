@@ -1,0 +1,41 @@
+
+body{
+    background-color: azure;
+  }
+  
+  .test{
+      border: .5px solid ;
+      background: rgba(255, 255, 255, 0.05);
+      font-weight: bold;
+      height: auto;
+      width: auto;
+  }       
+  
+  
+  .categories{
+      height: 20px;
+      margin-right: 70%;
+      text-align: left;
+      padding: 2px 2px 2px 2px;
+  }
+  
+  
+  
+  .header {
+      margin: 0%;
+      text-align: justify;
+      background: rgba(105, 255, 255, 0.4);
+      color: rgb(20, 0, 0);
+      font-size: 30px;
+      font-family: Copperplate;
+    }
+  
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(105, 255, 255, 0.2);
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
