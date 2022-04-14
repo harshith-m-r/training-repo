@@ -29,16 +29,24 @@ function getCategories() {
 
 
 function _onclick(concept_id){
+    let id_copy = concept_id;
     concept_url = `https://syntaxdb.com/api/v1/languages/javascript/categories/${concept_id}/concepts`;
     serviceClient(concept_url, displayConcepts);
+    document.getElementById('removedata').addEventListener('click', removeData());
 } 
 
+function removeData(){
+   document.getElementById('removedata').innerHTML = " ";
+}
 
 function displayConcepts(concepts) {
     var container = document.querySelector('.concepts');
     concepts.forEach((concept) => {
       var elem = document.createElement('li');
       elem.setAttribute('class', 'conceptDisplay');
+      //elem.setAttribute('id', 'removedata')
+      //elem.setAttribute('onmouseout', 'removeData()')
+      elem.setAttribute('onclick', 'removeData()');
       elem.textContent = concept['concept_name'];
       container.appendChild(elem);
     });

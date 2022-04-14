@@ -19,6 +19,14 @@ body {
     font-size: 20px;
   }
 
+
+.concepts{
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  background-color: hsla(171, 100%, 82%, 0.677);
+  display: contents;
+}
   .conceptDisplay{
       display: grid;
       columns: 5;
