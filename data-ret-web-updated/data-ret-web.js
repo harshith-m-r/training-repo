@@ -1,9 +1,9 @@
-function serviceClient(URL, callFunction) {
+function serviceClient(URL, callback) {
     let xhr = new XMLHttpRequest();
     xhr.open('GET', URL);
     xhr.send();
     xhr.onload = function () {
-        callFunction(JSON.parse(xhr.response));
+        callback(JSON.parse(xhr.response));
     };
 }
 
