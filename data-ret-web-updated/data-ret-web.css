@@ -1,61 +1,82 @@
 body {
-    background-color: azure;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navlinks {
-    background-color: #c9eff0; /* Green */
-    color: rgb(181, 95, 95);
-    padding: 2px;
-    text-align: center;
-    display: flex;
-    font-size: 15px;
-    margin: auto;
-  }
-  .navlinks:hover{
-    color: crimson;
-    cursor: pointer;
-    font-size: 20px;
-  }
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+}
+
+.navlinks {
+  background-color: #c9eff0;
+  /* Green */
+  color: rgb(181, 95, 95);
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  font-size: 15px;
+  margin: auto;
+}
+
+.navlinks:hover {
+  color: chocolate;
+  cursor: pointer;
+}
 
 
-.concepts{
+.concepts {
   margin: auto;
   border-style: solid;
   border-color: black;
   background-color: hsla(171, 100%, 82%, 0.677);
   display: contents;
 }
-  .conceptDisplay{
-      display: grid;
-      columns: 5;
-      column-gap: auto;
-  }
-  
-  .header {
-    margin: 0;
-    height: 60px;
-    text-align: center;
-    background: rgba(105, 255, 255, 0.4);
-    color: rgb(20, 0, 0);
-    font-size: 40px;
-    font-family: Copperplate;
-    align-content: center;
-    overflow: visible;
 
-  }
-  
-  .footer {
-    position: fixed;
-    left: 0;
-    height: 20px;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(105, 255, 255, 0.2);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    overflow: scroll;
-  }
+.conceptDisplay {
+  display: grid;
+  columns: 5;
+  column-gap: auto;
+}
 
-  
+.header {
+  margin: 0;
+  height: 60px;
+  text-align: center;
+  background: rgba(105, 255, 255, 0.4);
+  color: rgb(20, 0, 0);
+  font-size: 40px;
+  font-family: Copperplate;
+  align-content: center;
+  overflow: visible;
+
+}
+
+#contentData {
+  text-align: center;
+  display: center;
+  /* border: 1px solid black; */
+}
+
+/* .column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.column2 {
+  float: left;
+  width: 67.67%;
+  padding: 15px;
+} */
+
+
+
+/* .footer {
+  position: fixed;
+  overflow: visible;
+  left: 0;
+  height: 20px;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(105, 255, 255, 0.2);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  overflow: scroll;
+} */
